@@ -105,6 +105,7 @@ To make a **new** vertex that is connected to another one, press **E**. The new 
 - You're modeling only the right half of the toast (remember that mirror modifier)
 - If you want to delete a vertex, use **X** like before
 - **WHEN YOU'RE DONE, SELECT THE LAST 2 VERTECIES OF THE LOOP AND PRESS F**
+![Finish Outline](Images/finish_outline.png)
 
 Now that our outline is done, let's put a pace into it, so we can see it again.
 
