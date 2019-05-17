@@ -5,7 +5,7 @@
 - [2. Camera Movement](#2-camera-movement)
 - [3. Starting Our Project](#3-starting-our-project)
 - [4. Creating Our Toast Model](#4-creating-our-toast-model)
-
+- [5. UV-Wrapping Our Toast](#5-uv-wrapping-our-toast)
 
 # 1. Setting Blender Up
 Extract Blender from the zip file provided in this repository and run it.
@@ -16,7 +16,7 @@ You should be greeted by this screen:
 
 Dismiss the version information by pressing escape or clicking into the viewport
 
-Now delete all the objects in the viewport by selecting them with **leftclick** and pressing **X** or **DEL** (ENTF)
+Now delete all the objects in the viewport by selecting them with **Left Click** and pressing **X** or **DEL** (ENTF)
 
 ![Delete Objects](Images/delete.png)
 
@@ -81,3 +81,50 @@ If done correctly, your toast should look like this:
 ![Mirrored](Images/mirrored.png)
 
 ## Make it look like Toast
+
+Start by selecting the **vertex** (little black dot) furthest from the center and **delete** it
+
+Like last time, press **X** and then select **Vertecies**
+
+![Delete Vertex](Images/del_vert.png)
+
+It now should look like the model is gone, but if you press **A** there should still be 3 **highlighted Vertecies**
+
+now to edit your toast first press **NUMPAD 7**, or if you don't have a numpad press **The Z Axis** in the top left corner of your viewport
+
+![Select Top View](Images/top_view.png)
+
+**If you accidentally rotate your Camera (Middle Mouse Button) simply repeat the last step**
+
+Now it's time to make some toast!
+
+Select the vertecies and move them with the arrows or the blue square
+To make a **new** vertex that is connected to another one, press **E**. The new vertex is now snapped to your cursor so you can move it to the desired position and apply it with **Left Click**
+
+**IMPORTANT:**
+- You're modeling only the right half of the toast (remember that mirror modifier)
+- If you want to delete a vertex, use **X** like before
+- **WHEN YOU'RE DONE, SELECT THE LAST 2 VERTECIES OF THE LOOP AND PRESS F**
+
+Now that our outline is done, let's put a pace into it, so we can see it again.
+
+For that press **A** to select all vertecies
+
+Then press **ALT + F**
+
+![Make Face](Images/make_face.png)
+
+We can now **apply** that **Mirror Modifier**
+
+Press **tab** in the viewport to get back to **object mode** and then click **Apply** in the **Modifier Tab**
+
+![Apply Mirror](Images/apply_mirror.png)
+
+You can now **tab** back to **Edit Mode** to thicken that thin slice of toast.
+
+To do that make sure all vertecies are selected by pressing **A** and then Press **E** and move your **Mouse down** and accept with **Left Click** on your desired thickness of toast
+
+# 5. UV-Wrapping Our Toast
+
+
+
