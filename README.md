@@ -125,6 +125,8 @@ You can now **tab** back to **Edit Mode** to thicken that thin slice of toast.
 
 To do that make sure all vertecies are selected by pressing **A** and then Press **E** and move your **Mouse down** and accept with **Left Click** on your desired thickness of toast
 
+![Extrude Face](Images/extrude.png)
+
 # 5. UV-Wrapping Our Toast
 
 
