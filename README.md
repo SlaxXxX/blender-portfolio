@@ -129,5 +129,61 @@ To do that make sure all vertecies are selected by pressing **A** and then Press
 
 # 5. UV-Wrapping Our Toast
 
+To begin **UV-Wrapping** switch to the **UV Editing Workspace**
 
+![Switch Workspace](Images/uv_workspace.png)
 
+Then, in the left window, find the **Open Button** and select the **toast_texture.png** from the repository
+
+![Load Texture](Images/texture.png)
+
+Next, we have to give the uv unwrapper a hint where he should cut the texture of our toast
+
+Press **2** (not numpad) to switch to **Edge Select** mode. Now select the edge in the center of your toasts bottom,
+press **U** and select **Mark Seam**.
+
+This edge should now have a red highlight.
+
+![Mark Seam](Images/mark_seam.png)
+
+Now press **3** (not numpad) to switch to **Face Select** mode.
+
+Hold the **ALT** key for **Loop Select** and click on your **Seam**
+
+This should select the outer ring of your toast.
+
+Then press **U** and select **Unwrap**.
+
+To move the faces to the correct spot, press **A** to select all and then use the uv editors tools to move it.
+
+![Unwrap Loop](Images/unwrap_loop.png)
+
+Without removing your selection, press **CTRL + I** in your viewport to **Invert** your selection,
+and once again, press **U** and select **Unwrap** and move the selection to the correct spot on the left window.
+
+To actually see your work, select **Display in LookDev Mode** in the top right of your viewport
+
+Now click on **Material** in the right toolbar, add a **New** material, click the little circle next to **Base Color**
+and select **Image Texture**.
+
+Below the base color your can now **open** an image file, which will be the **toast_texture**.
+
+![Render](Images/render.png)
+
+We can now **TAB** back to **Object Mode** and proceed to the **Animation Workspace**
+
+From there, select the **Rotate Tool** and make your Toast stand upright
+
+Finally press **I** and click on **Rotation**
+
+![Keyframe](Images/keyframe.png)
+
+To make our toast fall over, move the **cursor** of the **timeline** to **20 frames**,
+
+**Rotate** your toast to lay flat on the floor and then again press **I** and click on **Rotation**
+
+Finally set the **End** of the animation to **30 frames** in the **bottom right** and press **Spacebar** to run the animation.
+
+![Falling Toast](Images/fall.png)
+
+You can now add futher keyframes to make the flop look more realistic if you want.
