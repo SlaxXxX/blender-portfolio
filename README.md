@@ -6,6 +6,7 @@
 - [3. Starting Our Project](#3-starting-our-project)
 - [4. Creating Our Toast Model](#4-creating-our-toast-model)
 - [5. UV-Wrapping Our Toast](#5-uv-wrapping-our-toast)
+- [6. Animating Our Toast](#6-animating-our-toast)
 
 # 1. Setting Blender Up
 Extract Blender from the zip file provided in this repository and run it.
@@ -170,7 +171,11 @@ Below the base color your can now **open** an image file, which will be the **to
 
 ![Render](Images/render.png)
 
+# 6. Animating Our Toast
+
 We can now **TAB** back to **Object Mode** and proceed to the **Animation Workspace**
+
+If your toast is white again, , select **Display in LookDev Mode** in the top right of your viewport.
 
 From there, select the **Rotate Tool** and make your Toast stand upright
 
