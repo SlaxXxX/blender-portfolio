@@ -191,4 +191,8 @@ Finally set the **End** of the animation to **30 frames** in the **bottom right*
 
 ![Falling Toast](Images/fall.png)
 
-You can now add futher keyframes to make the flop look more realistic if you want.
+To make the flop look more physically accurate than linear movement, select **both keyframes** with **SHIFT** pressed,
+
+**Right Click** on the **Timeline**, go to **Interpolation Mode** and select **Quartic** (^4)
+
+![Interpolation](Images/interpolation.png)
