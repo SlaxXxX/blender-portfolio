@@ -1,5 +1,7 @@
 # Blender Hands On:
 
+Download this repository and unzip blender to start with this Blender hands on.
+
 ## Content:
 - [1. Setting Blender Up](#1-setting-blender-up)
 - [2. Camera Movement](#2-camera-movement)
