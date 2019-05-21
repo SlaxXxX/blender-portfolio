@@ -44,6 +44,11 @@ To pan, hold down **Shift + Middle Mouse Button** while moving your mouse across
 
 **Pan**: hold Ctrl and swipe with 2 fingers in any direction
 
+You can also click and drag the axis visualizer in the top right of the viewport to **orbit**,
+or click on any axis to **move the view** to that axis. (For that you can also use NUMPAD 1,3,7,9 if you have one)
+
+![Axis](Images/axis.png)
+
 # 3. Starting Our Project
 First of all, let's switch to the correct **Workspace** by clicking on **Modeling** (Top Left Corner)
 
