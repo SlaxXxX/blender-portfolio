@@ -201,7 +201,7 @@ If your toast is white again, select **Display in LookDev Mode** in the top righ
 
 From there, select the **Rotate Tool** (Toolbar on the left) and make your Toast stand upright
 
-Finally press **I** and click on **Rotation**
+Finally press **I** (not l, bit i for Insert Keyframe) and click on **Rotation**
 
 ![Keyframe](Images/keyframe.png)
 
