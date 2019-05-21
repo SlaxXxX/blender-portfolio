@@ -1,8 +1,11 @@
 # Blender Hands On:
 
 Download this repository and unzip blender to start with this Blender hands on.
+
 **If you don't have a windows machine:**
+
 MAC: https://builder.blender.org/download/blender-2.80-e78770039397-OSX-10.9-x86_64.zip
+
 Linux: https://builder.blender.org/download/blender-2.80-e78770039397-linux-glibc224-i686.tar.bz2
 
 ## Content:
