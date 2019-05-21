@@ -37,8 +37,11 @@ To **orbit** the viewport, hold down the **Middle Mouse Button** while moving yo
 To pan, hold down **Shift + Middle Mouse Button** while moving your mouse across the viewport. Just like orbiting, panning requires that your cursor be inside the viewport before you hold down the keys.
 
 **Touchpad Controls** instead of using the middle mouse button, **use 2 Fingers**.
+
 **Zoom**: swipe with 2 fingers up and down
+
 **Orbit**: swipe with 2 fingers left and right
+
 **Pan**: hold Ctrl and swipe with 2 fingers in any direction
 
 # 3. Starting Our Project
