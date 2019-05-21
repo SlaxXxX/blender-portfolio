@@ -37,7 +37,7 @@ To **orbit** the viewport, hold down the **Middle Mouse Button** while moving yo
 To pan, hold down **Shift + Middle Mouse Button** while moving your mouse across the viewport. Just like orbiting, panning requires that your cursor be inside the viewport before you hold down the keys.
 
 # 3. Starting Our Project
-First of all, let's switch to the correct **Workspace** by clicking on **Modeling** in the **Top Left Corner**
+First of all, let's switch to the correct **Workspace** by clicking on **Modeling** (Top Left Corner)
 
 ![Blender Workspace](Images/workspace.png)
 
@@ -58,11 +58,11 @@ Let's start by **moving** our **Plane** to a better position.
 
 If the Plane is **not highlighted** (orange border) **Left Click** on it
 
-Then press **Tab** to switch **from Object Mode to Edit Mode*
+Then press **Tab** to switch **from Object Mode to Edit Mode**
 
 **IMPORTANT: if you happen to click somewhere in the viewport and your model becomes unselected, press A to select it again**
 
-And finally click on the **Move Tool** on the left **Toolbar**
+And finally click on the **Move Tool** in the left **Toolbar**
 
 ![Edit Mode](Images/edit_mode.png)
 
@@ -79,7 +79,7 @@ Your plane then should have **one corner** in the **origin** of the viewport
 ![Correct Move](Images/moved.png)
 
 ## Mirror it
-Once verified, find the **Modifiers Tab** on the **right side** of your viewport
+Once verified, find the **Modifiers Tab** on the **Properties Panel** (right side)
 
 Then click on **Add Modifier** and select **Mirror**
 
@@ -99,7 +99,7 @@ Like last time, press **X** and then select **Vertecies**
 
 It now should look like the model is gone, but if you press **A** there should still be 3 **highlighted Vertecies**
 
-now to edit your toast first press **NUMPAD 7**, or if you don't have a numpad press **The Z Axis** in the top left corner of your viewport
+now to edit your toast first press **NUMPAD 7**, or if you don't have a numpad press **The Z Axis** in the top right corner of your viewport
 
 ![Select Top View](Images/top_view.png)
 
@@ -126,11 +126,11 @@ Then press **ALT + F**
 
 We can now **apply** that **Mirror Modifier**
 
-Press **tab** in the viewport to get back to **object mode** and then click **Apply** in the **Modifier Tab**
+Press **tab** in the viewport to get back to **object mode** and then click **Apply** in the **Modifier Tab** (Property Panel)
 
 ![Apply Mirror](Images/apply_mirror.png)
 
-You can now **tab** back to **Edit Mode** to thicken that thin slice of toast.
+You can now **TAB** back to **Edit Mode** to thicken that thin slice of toast.
 
 To do that make sure all vertecies are selected by pressing **A** and then Press **E** and move your **Mouse down** and accept with **Left Click** on your desired thickness of toast
 
@@ -163,11 +163,11 @@ This should select the outer ring of your toast.
 
 Then press **U** and select **Unwrap**.
 
-To move the faces to the correct spot, press **A** to select all and then use the uv editors tools to move it.
+To move the faces to the correct spot, press **A** (int the UV editor) to select all and then use the UV editors tools to move it.
 
 ![Unwrap Loop](Images/unwrap_loop.png)
 
-Without removing your selection, press **CTRL + I** in your viewport to **Invert** your selection,
+Without removing your selection in your **Viewport**, press **CTRL + I** to **Invert** your selection,
 and once again, press **U** and select **Unwrap** and move the selection to the correct spot on the left window.
 
 To actually see your work, select **Display in LookDev Mode** in the top right of your viewport
@@ -175,7 +175,7 @@ To actually see your work, select **Display in LookDev Mode** in the top right o
 Now click on **Material** in the right toolbar, add a **New** material, click the little circle next to **Base Color**
 and select **Image Texture**.
 
-Below the base color your can now **open** an image file, which will be the **toast_texture**.
+Below the base color your can now **Open** an image file, which will be the **toast_texture**.
 
 ![Render](Images/render.png)
 
@@ -185,13 +185,13 @@ We can now **TAB** back to **Object Mode** and proceed to the **Animation Worksp
 
 If your toast is white again, , select **Display in LookDev Mode** in the top right of your viewport.
 
-From there, select the **Rotate Tool** and make your Toast stand upright
+From there, select the **Rotate Tool** (Toolbar on the left) and make your Toast stand upright
 
 Finally press **I** and click on **Rotation**
 
 ![Keyframe](Images/keyframe.png)
 
-To make our toast fall over, move the **cursor** of the **timeline** to **20 frames**,
+To make our toast fall over, move the **Cursor** of the **Timeline** to **20 Frames**,
 
 **Rotate** your toast to lay flat on the floor and then again press **I** and click on **Rotation**
 
