@@ -15,6 +15,7 @@ Linux: https://builder.blender.org/download/blender-2.80-e78770039397-linux-glib
 - [4. Creating Our Toast Model](#4-creating-our-toast-model)
 - [5. UV-Wrapping Our Toast](#5-uv-wrapping-our-toast)
 - [6. Animating Our Toast](#6-animating-our-toast)
+- [7. Rendering Our Toast](#7-rendering-our-toast)
 
 # 1. Setting Blender Up
 Extract Blender from the zip file provided in this repository and run it.
@@ -183,7 +184,7 @@ To move the faces to the correct spot, press **A** (int the UV editor) to select
 Without removing your selection in your **Viewport**, press **CTRL + I** to **Invert** your selection,
 and once again, press **U** and select **Unwrap** and move the selection to the correct spot on the left window.
 
-To actually see your work, select **Display in LookDev Mode** in the top right of your viewport
+To actually see your work, change your **Viewport Shading** to **Display in LookDev Mode** in the top right of your viewport
 
 Now click on **Material** in the right toolbar, add a **New** material, click the little circle next to **Base Color**
 and select **Image Texture**.
@@ -196,7 +197,7 @@ Below the base color your can now **Open** an image file, which will be the **to
 
 We can now **TAB** back to **Object Mode** and proceed to the **Animation Workspace**
 
-If your toast is white again, , select **Display in LookDev Mode** in the top right of your viewport.
+If your toast is white again, select **Display in LookDev Mode** in the top right of your viewport.
 
 From there, select the **Rotate Tool** (Toolbar on the left) and make your Toast stand upright
 
@@ -217,3 +218,42 @@ To make the flop look more physically accurate than linear movement, select **bo
 **Right Click** on the **Timeline**, go to **Interpolation Mode** and select **Quartic** (^4)
 
 ![Interpolation](Images/interpolation.png)
+
+# 7. Rendering Our Toast
+
+We will now make this falling toast into an actual video file that you can send everyone to tell them how great you are at modeling toast!
+
+For that head back to the **Modeling** workspace and **add (Shift+A)** a **Camera** and move it to a spot that you like. you can check what the camera sees by pressing **Numpad 0** or clicking on the **Camera Symbol** in the top right of the viewport.
+
+if you now switch your **Viewport Shading** to **Rendered**, your toast will become quite dark.
+
+to add some light, **add (Shift+A)** a **Light->Sun** (or something else if you want to have some fun)
+
+then move that little yellow dot to change the direction the sun is coming from.
+
+![Camera](Images/camera.png)
+
+Even in the modeling workspace you can have a look at your animation (start/stop with **Spacebar**),
+have a look through your camera to see if it looks like you want it to.
+
+Then head to the **Rendering Workspace** for your final task.
+
+Don't worry, it's normal that you're not seeing anything in your main window, as it is called "Render Result" and we haven't rendered anything yet.
+
+In the Properties window, head to the **Output** tab.
+
+Change the **Output Directory** to somewhere you'd like,
+
+change the **File Format** to **AVI JPEG**
+
+and set **Color** to **RGB**
+
+![Render Options](Images/render_options.png)
+
+Your final step will be to start the **Rendering** by pressing **Ctrl+F12** or clicking **Render Animation** in the render toolbar (top left
+
+![Render Menu](Images/render_menu.png)
+
+This should open a new Window with the active rendering process showing. Once it's done, there should appear a **.avi** file in your chosen destination.
+
+![Final](Images/final.png)
