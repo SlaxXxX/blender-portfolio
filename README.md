@@ -130,7 +130,7 @@ To make a **new** vertex that is connected to another one, press **E**. The new 
 - **WHEN YOU'RE DONE, SELECT THE LAST 2 VERTECIES OF THE LOOP AND PRESS F**
 ![Finish Outline](Images/finish_outline.png)
 
-Now that our outline is done, let's put a pace into it, so we can see it again.
+Now that our outline is done, let's put a face into it, so we can see it again.
 
 For that press **A** to select all vertecies
 
